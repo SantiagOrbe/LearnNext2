@@ -1,0 +1,56 @@
+nav{
+    display:flex;
+}
+
+nav a{
+    text-decoration: none;
+    padding:7px 15px;
+    margin:4px;
+    border:1px solid black;
+    border-radius:6px;
+    background-color:#0f0f0f;
+    color:white;
+}   
+
+nav a:hover{
+    color: #0f0f0f;
+    background-color: white;
+}
+
+.caja{
+
+    border: 2px solid rgb(71, 4, 4);
+    margin: auto;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    vertical-align:top;
+}
+
+.Personas{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+nav{
+    font-family: var(--mifont);
+}
+
+.about{
+    width: 50%;
+    border: 2px solid rgb(71, 4, 4);
+    margin: auto;   
+}
+
+.people{
+    border: 2px solid rgb(71, 4, 4);
+    margin: auto;
+    align-items: center;
+}
+
+.loading{
+    color: red;
+}
